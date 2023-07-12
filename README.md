@@ -2,6 +2,8 @@
 - Relocate stable diffusion config files and models folder, easy to shae  with mutiple webui and make the backup much easiler.
 - 重新定位stable diffusion配置文件和模型文件夹，轻松与多个WebUI共享并使备份更加容易。
 
+[stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
 # How to install
 - Download `database.bat`and save to sd webui root folder.
 - Add `call database.bat` to `webui-user.bat`
