@@ -37,5 +37,5 @@ set CONFIG_DIR_ARG=--ui-settings-file %DATABASE_DIR%"\\config\\config.json"^
 set CN_DIR=--controlnet-dir %DATABASE_DIR%"\\controlnet"
 
 : LyCORIS model path (if installed LyCORIS Extension)
-：LyCORIS 模型路徑（如果安裝了 LyCORIS Extension）
+: LyCORIS 模型路徑（如果安裝了 LyCORIS Extension）
 set LYCO_DIR=--lyco-dir %DATABASE_DIR%"\\LyCORIS"
