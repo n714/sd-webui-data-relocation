@@ -2,9 +2,12 @@
 
 : Enter your database path file path "\" to double slash "\\" is better.
 : 输入你的资料库路径档案度路径上"\"改为双斜线"\\"会更好.
-: set DATABASE_DIR="\\\Server\Resource\AI\models"
+: set DATABASE_DIR="X:\\AI\models"
 
-set DATABASE_DIR="R:\\\server\AI"
+set DATABASE_DIR="X:\\AI\models"
+
+: Cut and paste following models folder to target folder (Stable-diffusion, vae, lora, hypernetworks, ESRGAN, LDSR, SwinIR, ScuNET, RealESRGAN, Codeformer, GFPGAN, embeddings)
+: 将以下模型文件夹剪切并粘贴到目标文件夹 (Stable-diffusion, vae, lora, hypernetworks, ESRGAN, LDSR, SwinIR, ScuNET, RealESRGAN, Codeformer, GFPGAN, embeddings)
 
 : Below are all base model folder locations: 
 : 下方为所有基本模型资料夹位置
@@ -29,11 +32,8 @@ set CONFIG_DIR_ARG=--ui-settings-file %DATABASE_DIR%"\\config\\config.json"^
                    --ui-config-file %DATABASE_DIR%"\\config\\ui-config.json"^
                    --styles-file %DATABASE_DIR%"\\config\\styles.csv"
 
-
-: 常用擴充
-
-: Controlnet model path
-: Controlnet模型路径
+: Controlnet model path (stable-diffusion-webui\extensions\sd-webui-controlnet\models)
+: Controlnet模型路径 (stable-diffusion-webui\extensions\sd-webui-controlnet\models)
 set CN_DIR=--controlnet-dir %DATABASE_DIR%"\\controlnet"
 
 : LyCORIS model path (if installed LyCORIS Extension)
