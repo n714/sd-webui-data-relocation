@@ -4,8 +4,6 @@
 
 [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/n714mc){:target="_blank"}
-
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/n714mc)
 
 # How to install
