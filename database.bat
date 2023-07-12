@@ -25,6 +25,9 @@ set DIR_ARG=--ckpt-dir %DATABASE_DIR%"\\Stable-diffusion"^
 	    --codeformer-models-path %DATABASE_DIR%"\\Codeformer"^
 	    --gfpgan-models-path %DATABASE_DIR%"\\GFPGAN"
 
+: Cut and paste following file from sd webui root folder to target folder (config.json, ui-config.json, styles.csv)
+: 将以下文件从 sd webui 根文件夹剪切并粘贴到目标文件夹(config.json, ui-config.json, styles.csv)
+
 : Below is the config file path (the basic configuration file is saved in config)
 : 下方为config档案路径(config内保存基本设定档)
 
