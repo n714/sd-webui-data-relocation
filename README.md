@@ -1,2 +1,38 @@
 # sd-webui-data-relocation
 Relocate and share Stable diffusion data files 
+
+# How to install
+Pull `database.bat` to sd webui root folder
+
+- Add call `database.bat` to `webui-user.bat`
+- Add the required command in set COMMANDLINE_ARGS= and need to wrap it with %%
+- The example is as follows (this is the content example of `webui-user.bat`)
+```
+@echo off
+
+call database.bat
+set PYTHON=
+set GIT=
+set VENV_DIR=
+set COMMANDLINE_ARGS=--api --autolaunch --xformers %DIR_ARG% %CONFIG_DIR_ARG% %CN_DIR% %LYCO_DIR%
+
+git pull
+call webui.bat
+```
+## 安装方法
+- 在webui-user.bat中加入call database.bat
+- 并在set COMMANDLINE_ARGS= 加入需要的命令需要以%%包覆
+
+- 范例如下(这是`webui-user.bat`的内容范例)
+ ```
+@echo off
+
+call database.bat
+set PYTHON=
+set GIT=
+set VENV_DIR=
+set COMMANDLINE_ARGS=--api --autolaunch --xformers %DIR_ARG% %CONFIG_DIR_ARG% %CN_DIR% %LYCO_DIR%
+
+git pull
+call webui.bat
+```
