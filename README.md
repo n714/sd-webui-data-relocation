@@ -2,7 +2,7 @@
 - Relocate stable diffusion config files and models folder, easy to shae  with mutiple webui and make the backup much easiler.
 - 重新定位stable diffusion配置文件和模型文件夹，轻松与多个WebUI共享并使备份更加容易。
 
-[stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+[stable-diffusion-webui](https://github.com/n714/stable-diffusion-webui)
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/n714mc)
 
