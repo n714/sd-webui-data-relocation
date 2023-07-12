@@ -6,8 +6,8 @@
 
 set DATABASE_DIR="R:\\\server\AI"
 
-:Below are all base model folder locations: 
-:下方为所有基本模型资料夹位置
+: Below are all base model folder locations: 
+: 下方为所有基本模型资料夹位置
 
 set DIR_ARG=--ckpt-dir %DATABASE_DIR%"\\Stable-diffusion"^
 	    --vae-dir %DATABASE_DIR%"\\vae"^
