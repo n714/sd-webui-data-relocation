@@ -44,3 +44,5 @@ set COMMANDLINE_ARGS=--api --autolaunch --xformers %DIR_ARG% %CONFIG_DIR_ARG% %C
 git pull
 call webui.bat
 ```
+# Refecnce
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings
