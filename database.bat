@@ -41,4 +41,5 @@ set CN_DIR=--controlnet-dir %DATABASE_DIR%"\\controlnet"
 
 : LyCORIS model path (if installed LyCORIS Extension)
 : LyCORIS 模型路徑（如果安裝了 LyCORIS Extension）
+: LyCORIS extension is for stable-diffusion-webui < 1.5.0.
 set LYCO_DIR=--lyco-dir %DATABASE_DIR%"\\LyCORIS"
